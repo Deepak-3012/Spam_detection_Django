@@ -1,0 +1,159 @@
+/* @import '/fonts.css'; */
+section{
+    background: url('../spam/Images/Back_1.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+
+
+.typo-content {
+    padding: 20px; 
+    margin-top: 4em; 
+}
+
+.typo-content h1{
+    color: rgb(16, 28, 197);
+}
+.typo-content h5{
+    color: white;
+}
+.typo-content p{
+    color: white;
+    font-family: Anta-Regular;
+}
+.check-btn {
+    padding: 0.4em 4em;
+    border: none;
+    border-radius: 0.3em;
+    background: #fff;
+    
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.check-holder {
+    display: flex;
+    justify-content: end;
+}
+.main-form textarea {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 2px white solid;
+    border-radius: 0.3em;
+    position: relative;
+    height: 3em;
+    margin-bottom: 0.5em;
+    resize: none;
+    padding: 0.5em;
+    color: #fff;
+    
+    font-size: 1.3rem;
+}
+.footer p {
+    font-size: 1rem;
+    
+    letter-spacing: 1px;
+    text-align: center;
+}
+.radiocontainer{
+    color: white    ;
+}
+header {
+    width: 100%;
+    height: 3.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+}
+header nav {
+    height: 3em;
+    margin-right: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+header nav ul li a {
+    display: block;
+    padding: 0.6em 1em;
+    text-decoration: none !important;
+    color: gray !important;
+    font-size: 1.3rem;
+    
+    transition: 0.3s color;
+}
+header nav ul li a:hover {
+    color: #fff !important;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.check-btn {
+    padding: 0.4em 4em;
+    border: none;
+    border-radius: 0.3em;
+    background: #fff;
+  
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.AnswerSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AnswerSection .answer {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.backbtn, .backbtn:hover {
+    padding: 0em 1em;
+    color: #fff;
+    font-size: 3rem;
+    text-decoration: none;
+    border: 5px #fff solid;
+    border-radius: 0.2em;
+}
+@media only screen and (max-width: 768px) {
+    .form-content {
+      padding-top: 0;
+    }
+    .main-form {
+        margin-bottom: 2em;
+    }
+    .typo-content {
+        padding-bottom: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+
+    header nav {
+        margin-right: 1em;
+    }
+
+    header nav ul li a {
+        padding: 1em 0.4em;
+        font-size: 1rem;
+    }
+}

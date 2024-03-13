@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet"  href="{% static '/spam/analysis.css' %}">
+    <link rel="stylesheet" href="{% static '/spam/bootstrap.min.css' %}">
+    <title>Analysis</title>
+</head>
+<body>
+    <section>
+        <h1 style="color: white; margin-bottom: 20px;">Analysis of the Algorithms</h1>
+     
+        <div class="container">
+            <div class="quadrant">
+                <h2>Naive Bayes</h2>
+                <!-- <p>Details about Algorithm 1</p> -->
+                <ul>
+                    <li>Accuracy: <strong>98.74</strong></li>
+                    <!-- <li>Precision: </li>
+                    <li>Recall: </li>
+                    <li>F1 Score: </li> -->
+                    <!-- Add more details as needed -->
+                </ul>
+            </div>
+    
+            <div class="quadrant">
+                <h2>Random Forest</h2>
+                <!-- <p>Details about Algorithm 2</p> -->
+                <ul>
+                    <li>Accuracy: <strong>94.11</strong></li>
+                    <!-- <li>Precision: </li>
+                    <li>Recall: </li>
+                    <li>F1 Score: </li> -->
+                    <!-- Add more details as needed -->
+                </ul>
+            </div>
+    
+            <div class="quadrant">
+                <h2>LSTM</h2>
+                <!-- <p>Details about Algorithm 3</p> -->
+                <ul>
+                    <li>Accuracy: <strong>86.84</strong> </li>
+                    <!-- <li>Precision: </li>
+                    <li>F1 Recall: </li>
+                    <li>F1 Score: </li> -->
+                    <!-- Add more details as needed -->
+                </ul>
+            </div>
+    
+            <div class="quadrant">
+                <h2>RNN</h2>
+                <!-- <p>Details about Algorithm 4</p> -->
+                <ul>
+                    <li>Accuracy: <strong>98.03</strong></li>
+                    <!-- <li>Precision: </li>
+                    <li>F1 Recall: </li>
+                    <li>F1 Score: </li> -->
+                    <!-- Add more details as needed -->
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

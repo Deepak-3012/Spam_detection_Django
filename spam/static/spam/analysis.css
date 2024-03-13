@@ -1,0 +1,60 @@
+section{
+    background: url('../spam/Images/Back_1.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    overflow: auto; 
+    
+   
+    
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Disable scrolling */
+}
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center; /* Center the text */
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh;
+}
+
+.quadrant {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    list-style: none; /* Remove bullets */
+}
+
+.quadrant h2 {
+    color:#007bff; /* Change color to orange */
+}
+
+.quadrant ul {
+    padding: 0; /* Remove default padding for the list */
+}
+
+.quadrant li {
+    color: white; 
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    .quadrant {
+        margin-bottom: 10px; /* Reduce space between quadrants on smaller screens */
+    }
+
+
+}
